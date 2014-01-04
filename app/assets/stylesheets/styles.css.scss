@@ -1,8 +1,17 @@
-$baseFontFamily: Oxygen;
+/*$navbar-default-bg: green;
+*/
+
+$font-family-base: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
+$btn-primary-color: yellow;
 
 @import 'bootstrap';
+
+
+/*body{
+	background-color: black;
+}*/
 
 .footer{
     margin-top: 50px;
@@ -10,4 +19,26 @@ $baseFontFamily: Oxygen;
     a{
         color: $gray;
     }
+}
+
+div.Hed {
+
+	color: red;
+}
+
+div.One {
+
+	margin-left: 5px;
+	margin-bottom: 10px
+}
+
+div.Two {
+
+	margin-left: 20px;
+	margin-bottom: 10px
+}
+
+div.Three {
+
+	margin-left: 10px;
 }
